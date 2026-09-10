@@ -6,6 +6,7 @@ require_once 'auth_check.php';
 <head>
     <meta charset="UTF-8">
     <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h1>Bem-vindo, <?= htmlspecialchars($_SESSION['usuario_nome']); ?>!</h1>
